@@ -27,6 +27,9 @@ body {
     align-items: flex-end;
     padding: 0 5px;
 }
+.output > .previous {
+    font-size: 12px;
+}
 .output > .current {
     font-size: 16px;
 }
