@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@100;300;400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eaeaea;
+    font-family: 'Open-Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    top: 100px;
+    position: relative;
+}
+
+.output {
+    border: 1px solid #000;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 0 5px;
+}
+.output > .current {
+    font-size: 16px;
+}
+
+table {
+    outline: 1px solid #333;
+}
+
+table button {
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+}
+
+table tbody tr td .equal {
+    width: 100%;
+}
